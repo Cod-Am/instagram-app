@@ -1,0 +1,75 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    border-right: 0.1px solid #121212;
+    width: 17%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.more_content,
+.home_content,
+.search_content,
+.explore_content,
+.reels_content,
+.messages_content,
+.notifs_content,
+.create_content,
+.profile_content {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.home,
+.search,
+.more,
+.explore,
+.reel,
+.messages,
+.notifs,
+.create,
+.profile {
+    font-size: 16px;
+    padding-left: 20px;
+    width: 100px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.logoimg {
+    width: 60%;
+    margin-top: -30px;
+    margin-bottom: -50px;
+}
+
+.more_content {
+    margin-top: 50px
+}
+
+.profileimage {
+    width: 10px;
+}
+
+.nav_content {
+    padding-top: 20px;
+}
+
+.more_content:hover,
+.home_content:hover,
+.search_content:hover,
+.explore_content:hover,
+.reels_content:hover,
+.messages_content:hover,
+.notifs_content:hover,
+.create_content:hover,
+.profile_content:hover {
+    background-color: #262626;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.title:hover {
+    cursor: pointer;
+}
