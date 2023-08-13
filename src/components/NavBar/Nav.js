@@ -1,6 +1,5 @@
 import React from 'react'
 import './Nav.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import SearchIcon from '@mui/icons-material/Search';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';

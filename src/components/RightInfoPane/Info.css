@@ -1,0 +1,48 @@
+.info{
+    display: flex;
+    position: absolute;
+    flex-direction: co;
+    top: 80px;
+    /* right: -80px; */right: 0%;
+    width: 28%;
+    
+}
+.profile_detail{
+    margin-left: 12px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+}
+.switch{
+    position: relative;
+    height: 20px;
+    color: rgb(0, 145, 255);
+    background-color: black;
+    border: none;
+    font-size: 11px;
+    letter-spacing: 1px;
+    right: -116px;
+}
+.profile_nav{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    display: flex;
+    width: 300px;
+    transform: translateX(-25%);
+    font-size: 12px;
+    font-weight: bold;
+}
+.sugg{
+    position: relative;
+    display: flex;
+    left: -40px;
+    color: #555555;
+}
+.seeAll{
+    position: relative;
+    display: flex;
+    right: -110px;
+}

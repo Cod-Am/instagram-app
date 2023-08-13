@@ -3,4 +3,9 @@
     flex-direction: row;
     background-color: #000000;
     color: #ffffff;
+    margin-bottom: 0%;
+}
+::-webkit-scrollbar{
+    background-color: #121212;
+    scroll-behavior: smooth;
 }

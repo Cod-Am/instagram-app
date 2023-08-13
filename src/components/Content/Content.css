@@ -1,0 +1,48 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    width:55%;
+    align-items: center;
+}
+.story{
+    width: 93%;
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 70px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.post{
+   
+    display: flex;
+    flex-direction: column;
+    border-right: 0.1px solid   262626;
+}
+.individual{
+    display: flex;
+
+    height: 500px;
+    background-color: cadetblue;
+    margin-top: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+.post_border{
+    border: 2px solid #262626;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.post_profile{
+    margin-top: 20px;
+}
+.post_profile_details{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: start;
+}
